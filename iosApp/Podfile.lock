@@ -1,0 +1,168 @@
+PODS:
+  - AppMetricaAdSupport (6.0.0):
+    - AppMetricaCore (= 6.0.0)
+    - AppMetricaCoreExtension (= 6.0.0)
+  - AppMetricaCore (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaEncodingUtils (= 6.0.0)
+    - AppMetricaFMDB (= 6.0.0)
+    - AppMetricaHostState (= 6.0.0)
+    - AppMetricaIdentifiers (= 6.0.0)
+    - AppMetricaKeychain (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+    - AppMetricaNetwork (= 6.0.0)
+    - AppMetricaPlatform (= 6.0.0)
+    - AppMetricaProtobuf (= 6.0.0)
+    - AppMetricaProtobufUtils (= 6.0.0)
+    - AppMetricaStorageUtils (= 6.0.0)
+  - AppMetricaCoreExtension (6.0.0):
+    - AppMetricaCore (= 6.0.0)
+    - AppMetricaStorageUtils (= 6.0.0)
+  - AppMetricaCoreUtils (6.0.0):
+    - AppMetricaLog (= 6.0.0)
+  - AppMetricaEncodingUtils (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+    - AppMetricaPlatform (= 6.0.0)
+  - AppMetricaFMDB (6.0.0)
+  - AppMetricaHostState (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+  - AppMetricaIdentifiers (6.0.0):
+    - AppMetricaKeychain (= 6.0.0)
+    - AppMetricaLogSwift (= 6.0.0)
+    - AppMetricaPlatform (= 6.0.0)
+    - AppMetricaStorageUtils (= 6.0.0)
+    - AppMetricaSynchronization (= 6.0.0)
+  - AppMetricaIDSync (6.0.0):
+    - AppMetricaCore (= 6.0.0)
+    - AppMetricaCoreExtension (= 6.0.0)
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+    - AppMetricaNetwork (= 6.0.0)
+    - AppMetricaPlatform (= 6.0.0)
+    - AppMetricaStorageUtils (= 6.0.0)
+  - AppMetricaKeychain (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+    - AppMetricaStorageUtils (= 6.0.0)
+  - AppMetricaLibraryAdapter (6.0.0):
+    - AppMetricaCore (= 6.0.0)
+    - AppMetricaCoreExtension (= 6.0.0)
+  - AppMetricaLog (6.0.0)
+  - AppMetricaLogSwift (6.0.0):
+    - AppMetricaLog (= 6.0.0)
+  - AppMetricaNetwork (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+    - AppMetricaPlatform (= 6.0.0)
+  - AppMetricaPlatform (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+  - AppMetricaProtobuf (6.0.0)
+  - AppMetricaProtobufUtils (6.0.0):
+    - AppMetricaProtobuf (= 6.0.0)
+  - AppMetricaStorageUtils (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+  - AppMetricaSynchronization (6.0.0):
+    - AppMetricaLogSwift (= 6.0.0)
+  - DivKit (32.44.0):
+    - DivKit_LayoutKit (= 32.44.0)
+    - DivKit_Serialization (= 32.44.0)
+    - VGSL (~> 7.19)
+  - DivKit_LayoutKit (32.44.0):
+    - DivKit_LayoutKitInterface (= 32.44.0)
+    - VGSL (~> 7.19)
+  - DivKit_LayoutKitInterface (32.44.0):
+    - VGSL (~> 7.19)
+  - DivKit_Serialization (32.44.0):
+    - VGSL (~> 7.19)
+  - DivKitBinaryCompatibilityFacade (5.2.2):
+    - DivKit (~> 32.14)
+  - VGSL (7.21.0):
+    - VGSLFundamentals (= 7.21.0)
+    - VGSLNetworking (= 7.21.0)
+    - VGSLUI (= 7.21.0)
+  - VGSLFundamentals (7.21.0)
+  - VGSLNetworking (7.21.0):
+    - VGSLFundamentals (= 7.21.0)
+    - VGSLUI (= 7.21.0)
+  - VGSLUI (7.21.0):
+    - VGSLFundamentals (= 7.21.0)
+  - YandexMobileAds (8.0.0-beta.1):
+    - AppMetricaAdSupport (~> 6.0.0)
+    - AppMetricaCore (~> 6.0.0)
+    - AppMetricaIDSync (~> 6.0.0)
+    - AppMetricaLibraryAdapter (~> 6.0.0)
+    - DivKitBinaryCompatibilityFacade (~> 5.2.1)
+
+DEPENDENCIES:
+  - YandexMobileAds (= 8.0.0-beta.1)
+
+SPEC REPOS:
+  trunk:
+    - AppMetricaAdSupport
+    - AppMetricaCore
+    - AppMetricaCoreExtension
+    - AppMetricaCoreUtils
+    - AppMetricaEncodingUtils
+    - AppMetricaFMDB
+    - AppMetricaHostState
+    - AppMetricaIdentifiers
+    - AppMetricaIDSync
+    - AppMetricaKeychain
+    - AppMetricaLibraryAdapter
+    - AppMetricaLog
+    - AppMetricaLogSwift
+    - AppMetricaNetwork
+    - AppMetricaPlatform
+    - AppMetricaProtobuf
+    - AppMetricaProtobufUtils
+    - AppMetricaStorageUtils
+    - AppMetricaSynchronization
+    - DivKit
+    - DivKit_LayoutKit
+    - DivKit_LayoutKitInterface
+    - DivKit_Serialization
+    - DivKitBinaryCompatibilityFacade
+    - VGSL
+    - VGSLFundamentals
+    - VGSLNetworking
+    - VGSLUI
+    - YandexMobileAds
+
+SPEC CHECKSUMS:
+  AppMetricaAdSupport: 43a4d1509cdbfe712fb3f009fe60d3a6481816a0
+  AppMetricaCore: dae62fe7f95cd665b142218f3d94cf63262c195b
+  AppMetricaCoreExtension: 72da13ba849d4676f276ab86ff429bdf700eadc3
+  AppMetricaCoreUtils: 5e7c91cbafe0225dec2ded2bb3a806256e2ef791
+  AppMetricaEncodingUtils: a67df57f752dbbb174beea18f1de52d24853d834
+  AppMetricaFMDB: a3d8e45a5a85bec23a997be4469b92ab355a4df5
+  AppMetricaHostState: 1ac2ab5880aa30a358f55a044e57354dd8f9062f
+  AppMetricaIdentifiers: 00061e0cdcb371b74343a5491f54adfc1d470b25
+  AppMetricaIDSync: 91b403172ad78da3574c691ed34c25f69c2296ee
+  AppMetricaKeychain: 9ec64d877b8a3f6e823f3bbeef5e4086aa456686
+  AppMetricaLibraryAdapter: 56fa0f988850051d10f9ac3b6b9ace7bb6aa8fd7
+  AppMetricaLog: edd74df81c7557439c36c566989982f4c735e4d6
+  AppMetricaLogSwift: 3d2d4a3cbc33a680389b416a1c6a82ef4134da10
+  AppMetricaNetwork: 3dc6d768d4e932c3697c9c2c9a768de54e62059b
+  AppMetricaPlatform: 041a7b251ea1689e26626d9db8f331af1afe5bad
+  AppMetricaProtobuf: 01b141a164fa7277f641a29f30d5e571ea3d471a
+  AppMetricaProtobufUtils: dc48c7b84f3a1ef86ea218bbd97480ea9da4d3bc
+  AppMetricaStorageUtils: 78071115b9f5468d9e3b8184c456428cd9ee1dbd
+  AppMetricaSynchronization: 909bab97c61c0c147a435ce1620e4c8069e2d6b3
+  DivKit: c83f23989d57a12322d51ba86075a1a255da2b8d
+  DivKit_LayoutKit: 0a1b9bc137515b2c6627242f41eee0a69f99faf5
+  DivKit_LayoutKitInterface: 7dd8496e76f14ecf81fe58a19626b88c7d8a27c2
+  DivKit_Serialization: 9c84d5c0d10fd7ae7a9521fe721966ef240e2768
+  DivKitBinaryCompatibilityFacade: 77c240b799c62d65c826aeb9c8f0081e1ffe7b56
+  VGSL: 0573c2b82b05aadcba4836398ce3778d271bfd13
+  VGSLFundamentals: 3a081684c1a5df5800bf88aca8a9bdff2c10cfd9
+  VGSLNetworking: 0ea8a335bc4f4eba3f6123ffe441cf1c08f267f2
+  VGSLUI: 249a16cccdb75f1a5a1733894d013bca76e27c5e
+  YandexMobileAds: 110d2a8906b7e09ff46d6d72a0abcfe7e087253a
+
+PODFILE CHECKSUM: c9583d082d369d739bd7e18029cae9604d8fce20
+
+COCOAPODS: 1.16.2

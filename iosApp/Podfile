@@ -1,0 +1,12 @@
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '13.0'
+
+target 'iosApp' do
+  use_frameworks!
+
+  # Yandex Mobile Ads SDK
+  pod 'YandexMobileAds', '8.0.0-beta.1'
+
+  # ComposeApp framework is built via Gradle embedAndSignAppleFrameworkForXcode task
+end
