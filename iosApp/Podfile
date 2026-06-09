@@ -6,7 +6,7 @@ target 'iosApp' do
   use_frameworks!
 
   # Yandex Mobile Ads SDK
-  pod 'YandexMobileAds', '8.0.0'
+  pod 'YandexMobileAds', '8.1.0'
 
   # ComposeApp framework is built via Gradle embedAndSignAppleFrameworkForXcode task
 end
