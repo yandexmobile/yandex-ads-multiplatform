@@ -29,6 +29,7 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.androidx.activity.compose)
+            implementation(libs.mobileads.mediation)
         }
         commonMain.dependencies {
             implementation(libs.mobileads.compose)
