@@ -29,7 +29,7 @@ Add the `YandexMobileAds` pod to your `iosApp/Podfile`:
 ```ruby
 source 'https://cdn.cocoapods.org/'
 
-platform :ios, '13.0'
+platform :ios, '15.0'
 
 target 'iosApp' do
   use_frameworks!
